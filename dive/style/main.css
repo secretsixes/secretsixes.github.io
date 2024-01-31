@@ -381,14 +381,18 @@ hr {
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
   .tile.tile-1        { background: #000; }
+  .tile.tile--1       { background: #c7f; }
   .tile.tile-2        { background: #400; }
+  .tile.tile--2       { background: #c9f; }
   .tile.tile-4        { background: #800; }
+  .tile.tile--4       { background: #cdf; }
   .tile.tile-8        { background: #a00; }
   .tile.tile-16       { background: #c00; }
   .tile.tile-32       { background: #d00; }
   .tile.tile-64       { background: #e00; }
   .tile.tile-128      { background: #f00; }
   .tile.tile-3        { background: #060; }
+  .tile.tile--3       { background: #cbf; }
   .tile.tile-6        { background: #460; }
   .tile.tile-12       { background: #860; }
   .tile.tile-24       { background: #a60; }
@@ -540,6 +544,11 @@ hr {
   .tile.tile-324000   { background: #dff; }
   .tile.tile-648000   { background: #eff; }
   .tile.tile-1296000  { background: #fff; }
+  .tile.tile-373      { background: #044; }
+  .tile.tile-379      { background: #440; }
+  .tile.tile-383      { background: #404; }
+  .tile.tile-389      { background: #591; }
+  .tile.tile-397      { background: #777; }
 
 .tileoverlay { 
   width: 106px;
