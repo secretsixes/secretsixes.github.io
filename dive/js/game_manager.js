@@ -55,7 +55,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = this.tileTypes[Math.floor(Math.random() * this.tileTypes.length)];
+    var value = Math.random() < 0.999999 ? Math.random() < 0.99999 ? Math.random() < 0.99998 ? Math.random() < 0.99995 ? Math.random() < 0.99991666666666666666666 ? Math.random() < 0.9999 ? Math.random() < 0.9998958333333333333333333 ? Math.random() < 0.999888888888888888888 ? Math.random() < 0.99986111111111111111111 ? Math.random() < 0.999829584185412406271 ? Math.random() < 0.9998 ? Math.random() < 0.9997333333333333333333 ? Math.random() < 0.999681122448979591836 ? Math.random() < 0.999652777777777777777777 ? Math.random() < 0.999603174603174603174 ? Math.random() < 0.999567099567099567099 ? Math.random() < 0.999505928853754940711 ? Math.random() < 0.9995 ? Math.random() < 0.999333333333333333333 ? Math.random() < 0.999 ? Math.random() < 0.998958333333333333333333 ? Math.random() < 0.99888888888888888888 ? Math.random() < 0.998 ? Math.random() < 0.99674267100977198697 ? Math.random() < 0.995 ? Math.random() < 0.99 ? Math.random() < 0.98 ? this.tileTypes[Math.floor(Math.random() * this.tileTypes.length)] : 1 : -1 : "0" : 307 : 1.5 : 900 : 960 : -2 : 1500 : -3 : 2024 : 2310 : 2520 : 2880 : 3136 : 3750 : -4 : 5868 : 7200 : 9000 : 9600 : -7 : 0.1 : 21125 : 130831488 : 41.8 : "A";
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
