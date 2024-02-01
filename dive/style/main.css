@@ -544,11 +544,7 @@ hr {
   .tile.tile-324000   { background: #dff; }
   .tile.tile-648000   { background: #eff; }
   .tile.tile-1296000  { background: #fff; }
-  .tile.tile-373      { background: #044; }
-  .tile.tile-379      { background: #440; }
-  .tile.tile-383      { background: #404; }
-  .tile.tile-389      { background: #591; }
-  .tile.tile-397      { background: #777; }
+  .tile.tile-2592000  { background: #777; }
 
 .tileoverlay { 
   width: 106px;
@@ -717,7 +713,7 @@ hr {
 .tile.minitile .tilenumber.tile-small-4 {
   font-size: 17.6px !important; }
 .tile.minitile .tilenumber.tile-small-5 {
-  font-size: 21px !important; }
+  font-size: 13px !important; }
 .tile.minitile .tilenumber.tile-small-6 {
   font-size: 10px !important; }
 
