@@ -545,6 +545,14 @@ hr {
   .tile.tile-648000   { background: #eff; }
   .tile.tile-1296000  { background: #fff; }
   .tile.tile-2592000  { background: #777; }
+  .tile.tile-1.5      { background: #040; }
+  .tile.tile-2.5      { background: #030; }
+  .tile.tile-3.5      { background: #020; }
+  .tile.tile-4.5      { background: #010; }
+  .tile.tile-0.25      { background: #004; }
+  .tile.tile-0.2      { background: #034; }
+  .tile.tile-0.04      { background: #002; }
+  .tile.tile-0.00001      { background: #200; }
 
 .tileoverlay { 
   width: 106px;
