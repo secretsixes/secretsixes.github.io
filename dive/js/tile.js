@@ -1,8 +1,4 @@
 function Tile(position, value) {
-  if (position.x && position.y && !value) { 
-    console.log("missing value!", value); 
-    value = 0;
-  }
 
   this.x                = position.x;
   this.y                = position.y;
