@@ -383,17 +383,18 @@ hr {
   .tile.tile-1        { background: #000; }
   .tile.tile--1       { background: #c7f; }
   .tile.tile-2        { background: #400; }
-  .tile.tile--2       { background: #c9f; }
+  .tile.tile--2       { background: #7a3c3c; }
   .tile.tile-4        { background: #800; }
+  .tile.tile--4       { background: #c05353; }
   .tile.tile-8        { background: #a00; }
   .tile.tile-16       { background: #c00; }
-  .tile.tile--16      { background: #cb2b2b; }
   .tile.tile-32       { background: #d00; }
   .tile.tile-64       { background: #e00; }
   .tile.tile-128      { background: #f00; }
   .tile.tile-3        { background: #060; }
-  .tile.tile--3       { background: #cbf; }
+  .tile.tile--3       { background: #030; }
   .tile.tile-6        { background: #460; }
+  .tile.tile--6       { background: #1f2f00; }
   .tile.tile-12       { background: #860; }
   .tile.tile-24       { background: #a60; }
   .tile.tile-48       { background: #c60; }
@@ -425,6 +426,7 @@ hr {
   .tile.tile-5184     { background: #ef0; }
   .tile.tile-10368    { background: #ff0; }
   .tile.tile-5        { background: #008; }
+  .tile.tile--5       { background: #004; }
   .tile.tile-10       { background: #408; }
   .tile.tile-20       { background: #808; }
   .tile.tile-40       { background: #a08; }
@@ -544,8 +546,6 @@ hr {
   .tile.tile-324000   { background: #dff; }
   .tile.tile-648000   { background: #eff; }
   .tile.tile-1296000  { background: #fff; }
-  .tile.tile-2592000  { background: #777; }
-  .tile.tile-A        { background: #040; }
 
 .tileoverlay { 
   width: 106px;
