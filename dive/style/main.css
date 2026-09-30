@@ -381,7 +381,7 @@ hr {
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
   .tile.tile-1        { background: #000; }
-  .tile.tile--1       { background: #999; }
+  .tile.tile--1       { background: #777; }
   .tile.tile-2        { background: #400; }
   .tile.tile--2       { background: #7a3c3c; }
   .tile.tile-4        { background: #800; }
